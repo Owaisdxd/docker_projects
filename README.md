@@ -24,3 +24,15 @@ To build the Docker image from the provided Dockerfile, run the following comman
 
 ```bash
 docker build -t my-html-website .
+### Dockerized HTML website!
+docker run -p 8080:80 my-html-website
+### Accessing the Website
+http://localhost:8080
+Contributing
+Contributions are welcome! If you have suggestions or improvements:
+
+Fork the repository.
+Create a new branch for your feature or fix.
+Commit your changes.
+Push your branch to your fork.
+Submit a pull request.
